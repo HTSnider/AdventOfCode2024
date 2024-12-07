@@ -8,3 +8,6 @@ My part 2 is follows the solution of another participant, where the rules of ord
 
 # Day 6:
 Another notable day. The solution to both parts was solved with brute force, with a clever trick in part 2 of hashing the position and direction of points the guard turns at, so a position could be checked faster than putting it in a set of visited coordinates.
+
+# Day 7:
+First day to use recursion this year. The maximum depth is quite low, so the only optimization was using || so only paths until the first correct path are evaluated. Another optimization could have been to cut off the recursion if the running total excceeds the target value, since all of the operations are monotomically increasing.
