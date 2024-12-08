@@ -11,3 +11,6 @@ Another notable day. The solution to both parts was solved with brute force, wit
 
 # Day 7:
 First day to use recursion this year. The maximum depth is quite low, so the only optimization was using || so only paths until the first correct path are evaluated. Another optimization could have been to cut off the recursion if the running total excceeds the target value, since all of the operations are monotomically increasing.
+
+# Day 8:
+This day was difficult, but only because I tricked myself into thinking I needed to reduce the distance vector between each pair of antenni by the greatest common denominator, to find antinodes in spaces that exactly intersect the line between the antenni. One little problem I just added a check for was the duplication of antenna coordinates, since it shouldn't be possible to happen, and yet it does.
