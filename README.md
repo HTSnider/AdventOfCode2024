@@ -14,3 +14,6 @@ First day to use recursion this year. The maximum depth is quite low, so the onl
 
 # Day 8:
 This day was difficult, but only because I tricked myself into thinking I needed to reduce the distance vector between each pair of antenni by the greatest common denominator, to find antinodes in spaces that exactly intersect the line between the antenni. One little problem I just added a check for was the duplication of antenna coordinates, since it shouldn't be possible to happen, and yet it does.
+
+# Day 9:
+Another tricky day, manipulating large arrays of objects in loops. Switching from for to while loops made iterating through the files and blocks less complex, and a HashSet made determining which files I had already attempted to move much quicker.
