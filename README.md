@@ -17,3 +17,6 @@ This day was difficult, but only because I tricked myself into thinking I needed
 
 # Day 9:
 Another tricky day, manipulating large arrays of objects in loops. Switching from for to while loops made iterating through the files and blocks less complex, and a HashSet made determining which files I had already attempted to move much quicker.
+
+# Day 10: 
+A bit tricky to grasp, but not difficult to implement. Because part 2 was just part 1 without a check, I was able to optimize it a bit. A further optimization I could make is replacing the ArrayList I used to store steps of each path with a Queue, for faster list operations.
