@@ -26,3 +26,6 @@ I really struggled with this day, mostly part 2. My initial approach of keeping 
 
 ## Day 12:
 I completed the first part easily with a flooding algorithm. The second part was a little harder, requiring me to create sets of vertical and horizontal edges, then find which ones were adjacent, and also to find where four edges meet to take corners within the region into account.
+
+## Day 13:
+A frustrating day. While finding the solution mathematically wasn't difficult, getting the numbers to compute without rounding errors took longer than it should have. However, once part 1 was working, part 2 only needed a single modification.
