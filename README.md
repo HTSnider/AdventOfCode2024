@@ -23,3 +23,6 @@ A bit tricky to grasp, but not difficult to implement. Because part 2 was just p
 
 ## Day 11:
 I really struggled with this day, mostly part 2. My initial approach of keeping an ArrayDeque<Long> of the stones worked fine for 25 steps, but took up too much memory at 75 steps. Implementing the new process, keeping stones in a dictionary (implemented as a HashMap), with each stone markings being the key, and number of stones with that marking being the value, introduced logic errors, and I had to run someone else's solution in a separate project and manually compare the values in the dicts at each step to find and fix the problem.
+
+## Day 12:
+I completed the first part easily with a flooding algorithm. The second part was a little harder, requiring me to create sets of vertical and horizontal edges, then find which ones were adjacent, and also to find where four edges meet to take corners within the region into account.
