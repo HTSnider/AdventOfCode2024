@@ -29,3 +29,6 @@ I completed the first part easily with a flooding algorithm. The second part was
 
 ## Day 13:
 A frustrating day. While finding the solution mathematically wasn't difficult, getting the numbers to compute without rounding errors took longer than it should have. However, once part 1 was working, part 2 only needed a single modification.
+
+## Day 14:
+While part 1 was trivial, I barely knew where to start with part 2. I tried minimizing the mean horizontal difference first, but I would have been better off with some kind of clustering score. In the end the solution was to minimize the safety score I calculated in part 1, which I suppose should have been a hint.
