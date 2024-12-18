@@ -32,3 +32,6 @@ A frustrating day. While finding the solution mathematically wasn't difficult, g
 
 ## Day 14:
 While part 1 was trivial, I barely knew where to start with part 2. I tried minimizing the mean horizontal difference first, but I would have been better off with some kind of clustering score. In the end the solution was to minimize the safety score I calculated in part 1, which I suppose should have been a hint.
+
+## Day 17:
+While part 1 was simple, part 2 had me stumped for a while. After attempting to derive the math behind my program input, I implemented BFS using the output from part 1, and then had to convert the whole thing to use BigInteger because the so-called Integer registers actually were required to hold numbers larger than an Integer.
