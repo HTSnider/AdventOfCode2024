@@ -41,3 +41,6 @@ A much easier day than expected. Part 1 was another BFS through a maze, though t
 
 ## Day 19:
 This day was a little tricky, as my first attempt to create a target string by adding and comparing substrings was slow and memory-intensive. After I realized I could just store the ending indexes of each slice, and compare only the next prospective compenent sequence to its equivalent substring, things went a lot smoother. For part 2, I improved this even furthur by using dynamic programming, keeping an array of the number of ways to reach each index, and adding the value at the index I was evaluating to the value of that index plus the length of the current piece, for each piece where the substring matched.
+
+## Day 20:
+A surprisingly tricky part 1. I was able to calculate how many steps a cheat saves by finding the distance from the start to each node, and the end to each node, using Dijkstra's algorithm. Once the part 1 solution for cheats of length <=2 worked, the part 2 solution for cheats of length <=20 was not difficult to implement, though running a bit slower because of nested for loops. Some space could be saved by counting the cheats that save 100+ steps as they are calculated, but I'm not sure how to do this faster with Java.
