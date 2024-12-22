@@ -44,3 +44,6 @@ This day was a little tricky, as my first attempt to create a target string by a
 
 ## Day 20:
 A surprisingly tricky part 1. I was able to calculate how many steps a cheat saves by finding the distance from the start to each node, and the end to each node, using Dijkstra's algorithm. Once the part 1 solution for cheats of length <=2 worked, the part 2 solution for cheats of length <=20 was not difficult to implement, though running a bit slower because of nested for loops. Some space could be saved by counting the cheats that save 100+ steps as they are calculated, but I'm not sure how to do this faster with Java.
+
+## Day 21:
+Surprisingly difficult, but the most difficult part was ordering the movements to ensure both that the arm could move between buttons without passing over the empty space, and that the movements are optimal. Then part 2 was a matter of converting the existing functions to work with an input HashMap instead of a global variable, and to use Long rather than Integer to hold the values.
