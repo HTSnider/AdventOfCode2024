@@ -51,3 +51,6 @@ Surprisingly difficult, but the most difficult part was ordering the movements t
 ## Day 22:
 Today was fairly easy. I was able to optimize part 2 by only storing the last 5 secret numbers in a sliding window, and adding the first occurrance of each sequence of 4 changes to a HashMap of sequence to total profits. The functions still run slower than I would like, but the only method I see to further improve things would be to derive the expected change in price each evolution by its modular arithmetic, or possibly remove unnecessary portions of the secret numbers.
 
+## Day 23:
+Today focused on an undirected graph, and introduced me to the Bron-Kerbosch algorithm for finding the maximal clique.I implemented the first version, because I couldnt find any detail on how to chooose a pivot, and it didnt seem to work correctly with a random choice.
+
