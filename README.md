@@ -47,3 +47,7 @@ A surprisingly tricky part 1. I was able to calculate how many steps a cheat sav
 
 ## Day 21:
 Surprisingly difficult, but the most difficult part was ordering the movements to ensure both that the arm could move between buttons without passing over the empty space, and that the movements are optimal. Then part 2 was a matter of converting the existing functions to work with an input HashMap instead of a global variable, and to use Long rather than Integer to hold the values.
+
+## Day 22:
+Today was fairly easy. I was able to optimize part 2 by only storing the last 5 secret numbers in a sliding window, and adding the first occurrance of each sequence of 4 changes to a HashMap of sequence to total profits. The functions still run slower than I would like, but the only method I see to further improve things would be to derive the expected change in price each evolution by its modular arithmetic, or possibly remove unnecessary portions of the secret numbers.
+
