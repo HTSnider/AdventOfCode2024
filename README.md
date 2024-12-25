@@ -54,3 +54,6 @@ Today was fairly easy. I was able to optimize part 2 by only storing the last 5 
 ## Day 23:
 Today focused on an undirected graph, and introduced me to the Bron-Kerbosch algorithm for finding the maximal clique.I implemented the first version, because I couldnt find any detail on how to chooose a pivot, and it didnt seem to work correctly with a random choice.
 
+## Day 24:
+The part 2 of today was a reverse engineering challenge, focused on finding what gates have had their outputs swapped in the given circuit, when knowing that the circuit is intended to be an adder. This would have been a lot easier on paper, or in a proper circuit analyzer, manually inspecting each half adder for where its sum and carry bits were going. Still, it's the final stretch now.
+
