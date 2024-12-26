@@ -57,3 +57,5 @@ Today focused on an undirected graph, and introduced me to the Bron-Kerbosch alg
 ## Day 24:
 The part 2 of today was a reverse engineering challenge, focused on finding what gates have had their outputs swapped in the given circuit, when knowing that the circuit is intended to be an adder. This would have been a lot easier on paper, or in a proper circuit analyzer, manually inspecting each half adder for where its sum and carry bits were going. Still, it's the final stretch now.
 
+## Day 25:
+The final day, and the final problem. I had more trouble with this one than I should have, because I didn't realize that Scanner.hasNextLine() doesn't detect a final empty line, so my parser was missing one key schematic. I'm glad I was able to reach every answer programatically this year, and eventually develop a working solution for every part, even if I never reached the leaderboards.
